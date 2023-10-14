@@ -1,7 +1,7 @@
 const autoReply = (msg) => {
     let R = ''
     if(msg.match(/hi|හායි|hey|hello|halo|helow|හලෝ/gi)){
-        R = "🤓Hey, I am RedDragon👽"
+        R = "🤓Hey, I am cₕₐₘᵤdᵢₜₕ👽"
     }
     if(msg.match(/😒/gi)){
         R = "😒මොකෝ"
@@ -34,7 +34,7 @@ const autoReply = (msg) => {
         R = "🐶"
     }
     if(msg.match(/කව්ද|කවුද|kawd|who|kwd/gi)){
-        R = "😎මම තමයි රතු මකරා💀"
+        R = "😎මම තමයි...මම දන්නෙ නෑ...💀"
     }
     if(msg.match(/බය|baya/gi)){
         R = "😂හා"
@@ -54,7 +54,7 @@ const autoReply = (msg) => {
         R = "🤫නිකං ඉන්නෙපා ඇඳුමක් ඇඳගන්න."
     }
     if(msg.match(/lamayo|ළමයෝ|ලමයෝ/gi)){
-        R = "☺️❤️"
+        R = "Ai ළමයෝ☺️❤️"
     }
     if(msg.match(/දෙන්න|දාන්න|dahn|dapan|dapn|දාපං|දීපං|දීපන්|dipn|dipan|dahn/gi)){
         R = "😏බෑ..."
@@ -65,8 +65,8 @@ const autoReply = (msg) => {
     if(msg.match(/කාලද|kalad/gi)){
         R = "🥲නෑහ්"
     }
-    if(msg.match(/telegram|ටෙලි/gi)){
-        R = "Telegram Group එකට එන්න😌\nt.me/+RMAUq3inzkphM2U9"
+    if(msg.match(/whatsapp|වට්සැප්/gi)){
+        R = "Telegram Group එකට එන්න😌\wa.me/94740952096"
     }
     if(msg.match(/whatsapp|වට්සැප්|phon|‌පෝන්/gi)){
         R = "sendSricker:phonehate"
