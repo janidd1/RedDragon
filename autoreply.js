@@ -92,8 +92,11 @@ const autoReply = (msg) => {
     if(msg.match(/🙂/gi)){
         R = "🙂හ්ම්💔"
     }
-    if(msg.match(/Ai|ඇයි|ai/gi)){
+    if(msg.match(/Ai|ai|ඇයි|moko|මොකෝ/gi)){
         R = "🤭නෑ නෑ මුකුත් නෑ...🤫😂"
+    }
+    if(msg.match(/hutta|http|huttigeputa|ponnaya|fuck|හුට්ටා|පොන්නයා/gi)){
+        R = "හරි ලස්සනයි...Very Good...😂💔"
     }
     return R
 }
